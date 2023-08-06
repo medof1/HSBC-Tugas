@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+  </head>
+  <body class="mx-24 my-5 text-lg">
+    <div class="flex justify-between font-bold">
+        <div class="font-bold">
+          <p class="text-3xl">Fintech</p>
+        </div>
+        <div class="grid grid-cols-4 gap-8 self-center text-xl">
+          <span class="hover:text-yellow-400">Platform</span>
+          <span class="hover:text-yellow-400">Company</span>
+          <span class="hover:text-yellow-400">Industries</span>
+          <span class="hover:text-yellow-400">Resources</span>
+        </div>
+        <div>
+          <button class="bg-white hover:bg-gray-300 text-black font-bold py-1 px-6 border-2 border-black rounded-full ">
+            SIGN IN
+          </button>
+          <button class="bg-black hover:bg-gray-500 text-white font-bold py-1 px-6 border-2 border-black rounded-full ">
+            SIGN UP
+          </button>
+        </div>
+    </div>
+    <div class="flex justify-between py-20">
+      <div>
+        <div class="font-bold text-8xl py-10">
+          <p>All Banks are worried about fintech ind.</p>
+        </div>
+        <div class="py-14 text-gray-400 text-2xl">
+          <p>We help you get paid any way you want, with the least amount of hassle. It's just one of the reasons we are the most trusted name.</p>
+        </div>
+        <div>
+          <form class="py-14 flex">
+            <input class="rounded-l-full p-4 border-t-2 mr-0 border-b-2 border-l-2 text-gray-800 border-black bg-white" placeholder="Business email"/>
+            <button class="px-8 rounded-r-full bg-yellow-400  hover:bg-yellow-500  text-gray-800 font-bold p-4 border-black border-t-2 border-b-2 border-r-2">Get Started</button>
+          </form>
+        </div>
+        <div class="flex justify-between items-start py-20 text-sm">
+          <button class="basis-42 bg-white hover:bg-gray-300 text-black font-bold py-1 px-6 rounded-md shadow-2xl text-left">
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="asset/money.png" 
+                width="50"
+                height="50">
+              </div>
+              <div>
+                <p class="text-gray-400">Total Earning</p>
+                <p class="text-2xl">$22k</p>
+                <p class="text-gray-400">+10,80%</p>
+              </div>     
+            </div>    
+          </button>
+          <button class="basis-42 bg-white hover:bg-gray-300 text-black font-bold py-1 px-6 rounded-md shadow-2xl text-left">
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="asset/withdraw.png" 
+                width="50"
+                height="50">
+              </div>
+              <div>
+                <p class="text-gray-400">Withdraw</p>
+                <p class="text-2xl">$22k</p>
+                <p class="text-gray-400">10k</p>
+              </div>     
+            </div>    
+          </button>
+          <button class="basis-42 bg-white hover:bg-gray-300 text-black font-bold py-1 px-6 rounded-md shadow-2xl text-left">
+            <div class="flex justify-between items-center gap-3">
+              <div>
+                <img src="asset/check.png" 
+                width="50"
+                height="50">
+              </div>
+              <div>
+                <p class="text-gray-400">Total Projects</p>
+                <p class="text-2xl">$22k</p>
+                <p class="text-gray-400">15</p>
+              </div>     
+            </div>    
+          </button>
+        </div>
+      </div>
+      <div class="-mr-24">
+        <img src="asset/model.png" 
+        width="1200"
+        height="1200">
+      </div>
+    </div>
+    <div class="flex justify-between items-center gap-3 font-bold text-4xl text-center mb-40">
+      <div>
+        <img class="mx-auto" src="asset/cc.png" 
+          width="100"
+          height="100">
+        <p>Improved collection <br> performance</p>
+      </div>
+      <div>
+        <img class="mx-auto" src="asset/wallet.png" 
+          width="100"
+          height="100">
+        <p>Confinient, local<br>payment options</p>
+      </div>
+      <div>
+        <img class="mx-auto" src="asset/eurusd.png" 
+          width="100"
+          height="100">
+        <p>The best price<br>guarantee</p>
+        </div>
+    </div>
+  </body>
+</html>
